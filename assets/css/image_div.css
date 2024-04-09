@@ -1,0 +1,93 @@
+  #image-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
+    border: 3px;
+    border-radius: 50px;
+  
+  }
+  
+  #file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+     border-radius: 50px;
+  
+  }
+
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .image {
+      position: relative;
+      width: 350px;
+      height: 250px;      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .image img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+
+    .upload {
+      width: 150px;
+      height: 150px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .upload label {
+      cursor: pointer;
+    }
+
+    .upload input[type="file"] {
+      display: none;
+    }
+
+    .upload img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+
+    .image input[type="file"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+  .auth-form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+  }
